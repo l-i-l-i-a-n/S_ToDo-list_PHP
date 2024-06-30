@@ -1,0 +1,262 @@
+body {
+    font-family: 'Roboto', sans-serif!important;
+    margin: 0px;
+    overflow-x: hidden;
+    background-color: #2d2d2d !important;
+}
+
+.logHeader * {
+    border-top: 0 !important;
+}
+
+.border-radius-custom {
+    border-radius: .25rem !important;
+}
+
+.todoSpan {
+    max-width: 79.4%!important;
+    overflow-wrap: break-word;
+}
+
+.w-25-custom {
+    width: 25% !important;
+}
+
+.btn-outline-dark:hover, .btn-outline-dark:active {
+    color: initial !important;
+    background-color: #e2e6ea !important;
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled).active, .btn-outline-dark:not(:disabled):not(.disabled):active, .show > .btn-outline-dark.dropdown-toggle {
+    color: initial !important;
+    background-color: #e2e6ea !important;
+}
+
+.todo *:first-letter {
+    text-transform: uppercase;
+}
+
+.bg-blue-custom {
+    background-color: #5c86ff !important;
+}
+
+.bg-dark-grey-custom {
+    background-color: #2d2d2d !important;
+}
+
+.bg-lightdark-grey {
+    background-color: #383c40 !important;
+}
+
+.btn-dark-custom {
+    color: white !important;
+    background-color: #4a4c92 !important;
+}
+
+.btn-blue-custom {
+    color: white !important;
+    background-color: #5c86ff !important;
+}
+
+.page-link.paginationFirstLast {
+    background: none !important;
+    border: none !important;
+    color: white !important;
+
+}
+
+.listTrash i {
+    color: #ddddf3 !important;
+}
+
+.listTrash:hover i {
+    color: white !important;
+}
+
+.listTrash:hover {
+    background-color: #4a4c92 !important;
+}
+
+.btn-green-custom {
+    color: white !important;
+    background-color: #69e678 !important;
+}
+
+.border-todos {
+    border: 10px solid #383c40 !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.mx-3-custom {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
+
+.btnSubmit {
+    margin-right: 0 !important;
+}
+
+.padding-bottom-0 {
+    padding-bottom: 0 !important;
+}
+
+/* SCROLLBARS *******************/
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: grey;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #4a4c92;
+    border-radius: 5px;
+}
+
+.todos-scrollable {
+    max-height: 33.4em;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #4a4c92 #383c40;
+}
+
+.todos-scrollable::-webkit-scrollbar {
+    width: 6px;
+    background-color: #383c40;
+}
+
+.todos-scrollable::-webkit-scrollbar-thumb {
+    background-color: #4a4c92;
+    border-radius: 10px;
+}
+
+.todos-scrollable::-webkit-scrollbar-thumb:hover {
+    background-color: darkslateblue;
+}
+
+/********************************/
+
+/* FOR PHONES *******************/
+@media only screen and (max-aspect-ratio: 1/1), only screen and (max-aspect-ratio: 5/3), only screen and (max-width: 1150px) {
+    .listsDiv {
+        flex-direction: column;
+    }
+
+    .w-25-custom {
+        width: 100% !important;
+    }
+
+    .todolistAdd {
+        flex-direction: column;
+    }
+
+    body {
+        padding-bottom: 3.4em;
+    }
+
+    .btnSubmit {
+        margin: 0rem !important;
+        margin-top: 7px !important;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #header-toggler, #headerAccueil, #headerCenter, #headerCompte {
+        flex-direction: column;
+    }
+
+    .headerBtn {
+        margin: 0 !important;
+        margin-top: 7px !important;
+        width: 100% !important;
+    }
+
+    .btn-connexion {
+        margin: 0 !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .title-header {
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .title-header {
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .title-header {
+        font-size: 20px !important;
+    }
+}
+
+/********************************/
+
+.navbar-toggler-icon {
+    height: 1.4em !important;
+}
+
+.padding-lists {
+    padding: 0.8em 0.5em !important;
+}
+
+.right-10 {
+    right: -20px;
+    bottom: 5px;
+}
+
+.badge {
+    transform: translateY(2px);
+}
+
+.title-header {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.main_block {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.col_perso {
+    padding-left: 0px;
+}
+
+.input_perso {
+    justify-content: center;
+}
+
+.page-link {
+    color: #5c86ff !important;
+}
+
+.list-ispublic-badge {
+    position: absolute;
+    z-index: 10;
+    transform: translateY(-4px);
+}
+
+.badge {
+	border: none !important;
+}
+
+.column {
+    min-height: 30px !important;
+}
+
+li {
+    list-style-type: none !important;
+    min-height: 30px !important;
+}
+
+.todolist-tools-form {
+    margin: 0 !important;
+}
